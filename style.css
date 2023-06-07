@@ -25,3 +25,11 @@ width: 960px;
 left: 33%;
 max-width: 900px;}
 
+section h2
+{position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #fff;
+    font-size: 8em;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    transform: translate(0, -50%);}
