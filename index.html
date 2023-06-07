@@ -11,8 +11,15 @@
     <div id="bg"></div>
     <h2>互動網頁程式期末作業</h2>
     <img src="video/train.png" class="train">
-    
 </section>
+<script type="text/javascript">
+    var position = document.documentElement;
+    position.addEventListener("mousemove", e =>
+    {
+        position.style.setProperty('--x', e.clientX + "px");
+    })
+
+    </script>
 
 </body>
 </html>
