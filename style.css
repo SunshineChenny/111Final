@@ -14,16 +14,23 @@ left: 0;
 width: 100%;
 height: 100%;
 background: url(/video/bg.jpg);
-background-size: calc(100% + var(--x));
+background-size: calc(100% + var(--x)/2);
 background-position: center;}
 
-section .train
-{position: absolute;
-transform: rotate(3deg);
-top: 310px;
-width: 960px;
-left: 33%;
-max-width: 900px;}
+section .train {
+    position: absolute;
+    transform: rotate(3deg) translate(0, 10px) scale(1);
+    top: 360px;
+    width: 500px;
+    left: 32%;
+    max-width: 1500px;
+    transition: transform 2.5s ease;
+}
+
+section:hover .train {
+    transform: rotate(3.4deg) translateX(250px) translateY(89px) scale(2.7);
+}
+
 
 section h2
 {position: absolute;
@@ -32,4 +39,4 @@ section h2
     color: #fff;
     font-size: 8em;
     text-shadow: 0 5px 10px rgba(0,0,0,.2);
-    transform: translate(0, -50%);}
+    transform: translate(calc(100% - var(--x) *2), -50%);}
