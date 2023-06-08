@@ -22,7 +22,7 @@ section .train {
     transform: rotate(3deg) translate(0, 10px) scale(1);
     top: 259px;
     width: 376px;
-    left: 32%;
+    left: 31%;
     max-width: 1500px;
     transition: transform 2.5s ease;
 }
@@ -30,7 +30,6 @@ section .train {
 section:hover .train {
     transform: rotate(3.4deg) translateX(250px) translateY(89px) scale(2.7);
 }
-
 
 section h2
 {position: absolute;
