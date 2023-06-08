@@ -20,8 +20,8 @@ background-position: center;}
 section .train {
     position: absolute;
     transform: rotate(3deg) translate(0, 10px) scale(1);
-    top: 360px;
-    width: 500px;
+    top: 179px;
+    width: 376px;
     left: 32%;
     max-width: 1500px;
     transition: transform 2.5s ease;
